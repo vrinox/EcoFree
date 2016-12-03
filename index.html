@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset = "utf-8"  />
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>EcoPlantilla</title>
+	<!-- Estilos externos //google -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans|Oswald' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Estilos locales -->
+	<link rel="stylesheet" type="text/css" href="seguridad/vistas/css/logIn.css">
+	<link rel="stylesheet" type="text/css" href="lib/Rhino/css/Rhino.css">
+</head>
+<body>
+	<div contenedor>
+		<div capaLog>
+			<div loginForm>
+				<div titulo>
+					Acceso
+				</div>
+				<div cuerpo>
+					<div cont-log-input primero>
+						<i class="material-icons md-24 bluegrey500">account_circle</i>
+						<input type='text' id='nomUsu' placeholder='Usuario'>
+					</div>
+					<div clear></div>
+					<div cont-log-input>
+						<i class="material-icons md-24 bluegrey500">lock_open</i>
+						<input type='password' id='pass' placeholder='Clave'>
+					</div>
+					<div clear></div>
+					<div olvido>¿Olvido su contraseña?</div>
+				</div>
+			</div>
+			<button type='button' onclick='accesar()'><i class="material-icons md-24 white">send</i></button>
+		</div>
+		<div pie>
+
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src='lib/Rhino/motorRegistros.js'></script>
+<script type="text/javascript" src='lib/Rhino/Rhino.js'></script>
+
+<script type="text/javascript" src='seguridad/vistas/js/acceso.js'></script>
+<script type="text/javascript">
+	/*-----------------------------Inicialiazacion de formulario--------------------------------------------------*/
+	var torque = new Motor('acceso');
+
+	//Inicialiazion de UI(Interfaz De Usuario)
+	var UI = new Arquitecto();
+	UI.configure();
+
+/*-------------------------Fin Inicialiazacion de formulario--------------------------------------------------*/
+</script>
+</html>
