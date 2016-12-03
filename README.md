@@ -3,11 +3,12 @@ Esta es una plantilla de una appWeb usando mi nueva libreria de FrontEnd **Rhino
 esta plantilla ya trae un modulo de seguridad integrado con Base de datos y todo en la ruta /nucleo/Documentacion/BD.
 
 ## Tecnologias utilizadas:
-* Gestor de Base de Datos: POSTGRESQL 9.4 o mayor
+* **Gestor de Base de Datos**: POSTGRESQL 9.4 o mayor
 
-* Lenguaje BackEnd: PHP
+* **Lenguaje BackEnd**: PHP
 
-* Lenguajes FrontEnd: HTML, CSS, JAVASCRIPT
+* **Lenguajes FrontEnd**: HTML, CSS, JAVASCRIPT
+
 ## Librerias Involucradas:
 este plantilla solo utiliza dos librerias a nivel de frontEnd y ninguna a nivel de backEnd. las librerias son:
 ### FullCalendar:
