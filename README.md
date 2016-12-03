@@ -18,4 +18,4 @@ para mas informacion sobre ella presione [aqui](https://fullcalendar.io/) o diri
 Libreria 100% libre con la cual se pueden crear interfaces de manera mas rapida y clara, ademas esta nos presenta una estructura logica de la interfaz para su mejor utilizacion desde el lenguaje Javascript.
 esta plantilla fue creada para probar un poco lo que se puede crear utilizando dicha libreria.
 
-para mas informacion sobre Rhino aqui esta su [repositorio] y su [Wiki]  
+para mas informacion sobre Rhino aqui esta su [repositorio](https://github.com/vrinox/Rhino.js) y su [Wiki](https://github.com/vrinox/Rhino.js/wiki)
