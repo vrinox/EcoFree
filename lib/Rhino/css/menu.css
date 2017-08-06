@@ -68,12 +68,12 @@ div[SubCapaMenu] section{
     transition: all 0.2s ease-in-out;
     margin-bottom: 1px;
     margin-left: 1px;
-    color: #607D8B;
+    color: #4CAF50;
     background-repeat: no-repeat;
 }
 div[SubCapaMenu] section[seleccionado]{
     margin-left: 10px !important;
-    background-color: #B0BEC5;
+    background-color: #a5d6a7;
     color: white;
 }
 div[SubCapaMenu] section[enlace^='>']:after{
